@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <title>Where In the World</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <h1>Where in the world?</h1>
+        <button class="btn-ghost">
+          <i class="empty-moon far fa-moon"></i>
+          <i class="filled-moon fas fa-moon"></i>
+          <span>Dark Mode</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- SearchBox and Filter -->
+    <section class="search-filter">
+      <div class="container">
+        <div class="searchbox-container">
+          <i class="fas fa-search"></i>
+          <input
+            class="search-country"
+            type="text"
+            placeholder="Search for a country..."
+          />
+        </div>
+        <div class="dropdown">
+          <button>
+            <span>Filter by Region</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <ul class="regions">
+            <li class="region-name">All</li>
+            <li class="region-name">Africa</li>
+            <li class="region-name">America</li>
+            <li class="region-name">Asia</li>
+            <li class="region-name">Europe</li>
+            <li class="region-name">Oceania</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countries and their info -->
+    <main>
+      <div class="countries container">
+        <h2 style="text-align: center">Countries Loading...</h2>
+      </div>
+    </main>
+
+    <div class="overlay"></div>
+
+    <!-- Country Details when clicked -->
+    <section class="details"></section>
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+  </body>
+</html>

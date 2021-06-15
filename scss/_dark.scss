@@ -1,0 +1,34 @@
+body.dark {
+  background-color: $body-bg-dark;
+
+  .empty-moon {
+    display: none;
+  }
+  .filled-moon {
+    display: inline-block;
+  }
+
+  header,
+  .card,
+  .dropdown button,
+  .dropdown .regions,
+  .regions,
+  .searchbox-container,
+  .details {
+    background-color: $els-bg-dark;
+  }
+
+  header h1,
+  header button,
+  .searchbox-container i,
+  .searchbox-container input::placeholder,
+  .dropdown,
+  .dropdown button,
+  .countries,
+  .countries h3,
+  .details,
+  .details h2,
+  input {
+    color: white;
+  }
+}
