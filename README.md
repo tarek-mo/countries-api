@@ -9,3 +9,11 @@ Designed by [Frontend Mentor](https://www.frontendmentor.io/challenges).
 Coded by [me](https://www.facebook.com/tarek.mo.02/)
 
 
+To view this little web app, [click here](https://rest-countries-web-app.netlify.app).
+
+## Languages Used
+  - HTML
+  - SCSS:
+      - Layout with flexbox.
+  - JavaScript:
+      - using async functions and promises
